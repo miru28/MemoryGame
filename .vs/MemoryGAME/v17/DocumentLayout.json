@@ -1,0 +1,312 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|c:\\users\\miruna\\desktop\\anul2\\semestrul2\\mvp\\memorygame\\memorygame\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|solutionrelative:memorygame\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|c:\\users\\miruna\\desktop\\anul2\\semestrul2\\mvp\\memorygame\\memorygame\\viewmodels\\maingameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|solutionrelative:memorygame\\viewmodels\\maingameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|c:\\users\\miruna\\desktop\\anul2\\semestrul2\\mvp\\memorygame\\memorygame\\services\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|solutionrelative:memorygame\\services\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|c:\\users\\miruna\\desktop\\anul2\\semestrul2\\mvp\\memorygame\\memorygame\\models\\gamecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|solutionrelative:memorygame\\models\\gamecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|c:\\users\\miruna\\desktop\\anul2\\semestrul2\\mvp\\memorygame\\memorygame\\utilities\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|solutionrelative:memorygame\\utilities\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|c:\\users\\miruna\\desktop\\anul2\\semestrul2\\mvp\\memorygame\\memorygame\\views\\maingamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|solutionrelative:memorygame\\views\\maingamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|c:\\users\\miruna\\desktop\\anul2\\semestrul2\\mvp\\memorygame\\memorygame\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|solutionrelative:memorygame\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|c:\\users\\miruna\\desktop\\anul2\\semestrul2\\mvp\\memorygame\\memorygame\\utilities\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|solutionrelative:memorygame\\utilities\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|c:\\users\\miruna\\desktop\\anul2\\semestrul2\\mvp\\memorygame\\memorygame\\views\\maingamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|solutionrelative:memorygame\\views\\maingamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|c:\\users\\miruna\\desktop\\anul2\\semestrul2\\mvp\\memorygame\\memorygame\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|solutionrelative:memorygame\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|c:\\users\\miruna\\desktop\\anul2\\semestrul2\\mvp\\memorygame\\memorygame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|solutionrelative:memorygame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|c:\\users\\miruna\\desktop\\anul2\\semestrul2\\mvp\\memorygame\\memorygame\\views\\statisticswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|solutionrelative:memorygame\\views\\statisticswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|c:\\users\\miruna\\desktop\\anul2\\semestrul2\\mvp\\memorygame\\memorygame\\memorygame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|solutionrelative:memorygame\\memorygame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|c:\\users\\miruna\\desktop\\anul2\\semestrul2\\mvp\\memorygame\\memorygame\\views\\statisticswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|solutionrelative:memorygame\\views\\statisticswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|c:\\users\\miruna\\desktop\\anul2\\semestrul2\\mvp\\memorygame\\memorygame\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|solutionrelative:memorygame\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|c:\\users\\miruna\\desktop\\anul2\\semestrul2\\mvp\\memorygame\\memorygame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|solutionrelative:memorygame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|c:\\users\\miruna\\desktop\\anul2\\semestrul2\\mvp\\memorygame\\memorygame\\views\\customgamedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|solutionrelative:memorygame\\views\\customgamedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|c:\\users\\miruna\\desktop\\anul2\\semestrul2\\mvp\\memorygame\\memorygame\\views\\customgamedialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{595A2D9B-F967-4C75-B4C9-6CD59A7B3DB2}|MemoryGAME\\MemoryGAME.csproj|solutionrelative:memorygame\\views\\customgamedialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "MemoryGAME\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Services\\UserService.cs",
+              "RelativeToolTip": "MemoryGAME\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:20:44.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StatisticsService.cs",
+              "DocumentMoniker": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Services\\StatisticsService.cs",
+              "RelativeDocumentMoniker": "MemoryGAME\\Services\\StatisticsService.cs",
+              "ToolTip": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Services\\StatisticsService.cs",
+              "RelativeToolTip": "MemoryGAME\\Services\\StatisticsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:19:52.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameCard.cs",
+              "DocumentMoniker": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Models\\GameCard.cs",
+              "RelativeDocumentMoniker": "MemoryGAME\\Models\\GameCard.cs",
+              "ToolTip": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Models\\GameCard.cs",
+              "RelativeToolTip": "MemoryGAME\\Models\\GameCard.cs",
+              "ViewState": "AgIAAGIAAAAAMTMzMzMTwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:19:26.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainGameViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\ViewModels\\MainGameViewModel.cs",
+              "RelativeDocumentMoniker": "MemoryGAME\\ViewModels\\MainGameViewModel.cs",
+              "ToolTip": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\ViewModels\\MainGameViewModel.cs",
+              "RelativeToolTip": "MemoryGAME\\ViewModels\\MainGameViewModel.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAvwH4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:16:40.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "MemoryGAME\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "MemoryGAME\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAADwvz0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:16:26.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Utilities\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "MemoryGAME\\Utilities\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Utilities\\RelayCommand.cs",
+              "RelativeToolTip": "MemoryGAME\\Utilities\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:15:58.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ObservableObject.cs",
+              "DocumentMoniker": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Utilities\\ObservableObject.cs",
+              "RelativeDocumentMoniker": "MemoryGAME\\Utilities\\ObservableObject.cs",
+              "ToolTip": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Utilities\\ObservableObject.cs",
+              "RelativeToolTip": "MemoryGAME\\Utilities\\ObservableObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:15:09.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MemoryGAME\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MemoryGAME\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAiwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:34:39.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MemoryGAME\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\MainWindow.xaml",
+              "RelativeToolTip": "MemoryGAME\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T09:33:12.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "MemoryGAME\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\AssemblyInfo.cs",
+              "RelativeToolTip": "MemoryGAME\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:32:35.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\App.xaml",
+              "RelativeDocumentMoniker": "MemoryGAME\\App.xaml",
+              "ToolTip": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\App.xaml",
+              "RelativeToolTip": "MemoryGAME\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T09:32:32.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainGameWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Views\\MainGameWindow.xaml",
+              "RelativeDocumentMoniker": "MemoryGAME\\Views\\MainGameWindow.xaml",
+              "ToolTip": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Views\\MainGameWindow.xaml",
+              "RelativeToolTip": "MemoryGAME\\Views\\MainGameWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T09:28:55.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MemoryGAME.csproj",
+              "DocumentMoniker": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGame\\MemoryGAME\\MemoryGAME.csproj",
+              "RelativeDocumentMoniker": "MemoryGAME\\MemoryGAME.csproj",
+              "ToolTip": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGame\\MemoryGAME\\MemoryGAME.csproj",
+              "RelativeToolTip": "MemoryGAME\\MemoryGAME.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-08T09:39:04.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StatisticsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Views\\StatisticsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MemoryGAME\\Views\\StatisticsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Views\\StatisticsWindow.xaml.cs",
+              "RelativeToolTip": "MemoryGAME\\Views\\StatisticsWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:32:17.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StatisticsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Views\\StatisticsWindow.xaml",
+              "RelativeDocumentMoniker": "MemoryGAME\\Views\\StatisticsWindow.xaml",
+              "ToolTip": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Views\\StatisticsWindow.xaml",
+              "RelativeToolTip": "MemoryGAME\\Views\\StatisticsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T09:31:43.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainGameWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Views\\MainGameWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MemoryGAME\\Views\\MainGameWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Views\\MainGameWindow.xaml.cs",
+              "RelativeToolTip": "MemoryGAME\\Views\\MainGameWindow.xaml.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAqwFwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:30:22.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomGameDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Views\\CustomGameDialog.xaml.cs",
+              "RelativeDocumentMoniker": "MemoryGAME\\Views\\CustomGameDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Views\\CustomGameDialog.xaml.cs",
+              "RelativeToolTip": "MemoryGAME\\Views\\CustomGameDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:28:48.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CustomGameDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Views\\CustomGameDialog.xaml",
+              "RelativeDocumentMoniker": "MemoryGAME\\Views\\CustomGameDialog.xaml",
+              "ToolTip": "C:\\Users\\Miruna\\Desktop\\ANUL2\\SEMESTRUL2\\MVP\\MemoryGAME\\MemoryGAME\\Views\\CustomGameDialog.xaml",
+              "RelativeToolTip": "MemoryGAME\\Views\\CustomGameDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T09:28:33.27Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+﻿<Window x:Class="MemoryGAME.Views.StatisticsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MemoryGAME.Views"
+        mc:Ignorable="d"
+        Title="Game Statistics" Height="400" Width="500"
+        WindowStartupLocation="CenterOwner">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Player Statistics" FontSize="20" Margin="0,0,0,10"/>
+
+        <DataGrid Grid.Row="1" x:Name="StatisticsGrid" AutoGenerateColumns="False" 
+                  IsReadOnly="True" GridLinesVisibility="All">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Username" Binding="{Binding Username}" Width="*"/>
+                <DataGridTextColumn Header="Games Played" Binding="{Binding GamesPlayed}" Width="*"/>
+                <DataGridTextColumn Header="Games Won" Binding="{Binding GamesWon}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button Grid.Row="2" Content="Close" HorizontalAlignment="Right" 
+                Margin="0,10,0,0" Padding="20,5" Click="CloseButton_Click"/>
+    </Grid>
+</Window>

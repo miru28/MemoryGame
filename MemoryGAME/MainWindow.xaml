@@ -1,0 +1,200 @@
+﻿<Window x:Class="MemoryGAME.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MemoryGAME"
+        mc:Ignorable="d"
+        Title="Memory Game Login" Height="700" Width="950"
+        WindowStartupLocation="CenterScreen"
+        Background="#F5F5F5">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
+
+        
+        <Style x:Key="ActionButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#4CAF50"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="15,8"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="BorderBrush" Value="#388E3C"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="4">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#66BB6A"/>
+                    <Setter Property="Cursor" Value="Hand"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#388E3C"/>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Background" Value="#BDBDBD"/>
+                    <Setter Property="Foreground" Value="#757575"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        
+        <Style x:Key="HeaderTextStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="#1976D2"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Margin" Value="0,0,0,15"/>
+        </Style>
+
+        <Style x:Key="LabelTextStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Foreground" Value="#424242"/>
+            <Setter Property="Margin" Value="0,0,0,5"/>
+        </Style>
+
+        
+        <Style x:Key="InputTextBoxStyle" TargetType="TextBox">
+            <Setter Property="Padding" Value="10,8"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="BorderBrush" Value="#BBDEFB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                <GradientStop Color="#FFFFFF" Offset="0"/>
+                <GradientStop Color="#E3F2FD" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        
+        <Border Background="#FFFFFF" CornerRadius="10" Margin="25" 
+                BorderBrush="#E0E0E0" BorderThickness="1">
+            <Border.Effect>
+                <DropShadowEffect Color="#9E9E9E" BlurRadius="10" ShadowDepth="3" Opacity="0.2"/>
+            </Border.Effect>
+
+            <Grid Margin="25">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="1"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                
+                <Grid Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" Text="Select User" Style="{StaticResource HeaderTextStyle}"/>
+
+                    <Border Grid.Row="1" Background="#F5F5F5" CornerRadius="8" 
+                            BorderBrush="#E0E0E0" BorderThickness="1">
+                        <ListView ItemsSource="{Binding Users}" 
+                                  SelectedItem="{Binding SelectedUser}"
+                                  Background="Transparent" BorderThickness="0">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Padding="10" Background="White" Margin="0,5" CornerRadius="6"
+                                            BorderBrush="#E0E0E0" BorderThickness="1" Width="250">
+                                        <Border.Effect>
+                                            <DropShadowEffect Color="#9E9E9E" BlurRadius="3" ShadowDepth="1" Opacity="0.2"/>
+                                        </Border.Effect>
+                                        <StackPanel Orientation="Horizontal">
+                                            <Border Width="60" Height="60" CornerRadius="30" Background="#BBDEFB" Margin="0,0,15,0">
+                                                <Image Source="{Binding ImagePath}" Stretch="UniformToFill"/>
+                                            </Border>
+                                            <TextBlock Text="{Binding Username}" VerticalAlignment="Center" 
+                                                       FontSize="16" FontWeight="Medium" Foreground="#424242"/>
+                                        </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </Border>
+
+                    <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,15,0,0" HorizontalAlignment="Center">
+                        <Button Content="Delete User" Command="{Binding DeleteUserCommand}" 
+                                Width="120" Margin="0,0,10,0" Style="{StaticResource ActionButtonStyle}"
+                                Background="#F44336" IsEnabled="{Binding CanDelete}"/>
+                        <Button Content="Play" Click="PlayButton_Click" 
+                                Width="120" Style="{StaticResource ActionButtonStyle}"
+                                IsEnabled="{Binding CanPlay}"/>
+                    </StackPanel>
+                </Grid>
+
+                
+                <Rectangle Grid.Column="1" Width="1" Fill="#E0E0E0" Margin="15,20"/>
+
+                
+                <Grid Grid.Column="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" Text="Create New User" Style="{StaticResource HeaderTextStyle}"/>
+
+                    <StackPanel Grid.Row="1" Margin="0,0,0,15">
+                        <TextBlock Text="Username:" Style="{StaticResource LabelTextStyle}"/>
+                        <TextBox Text="{Binding NewUsername, UpdateSourceTrigger=PropertyChanged}" 
+                                 Style="{StaticResource InputTextBoxStyle}"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="2" Margin="0,0,0,15">
+                        <TextBlock Text="User Image:" Style="{StaticResource LabelTextStyle}"/>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBox Grid.Column="0" Text="{Binding NewUserImagePath}" IsReadOnly="True" 
+                                     Style="{StaticResource InputTextBoxStyle}"/>
+                            <Button Grid.Column="1" Content="Browse..." Command="{Binding BrowseImageCommand}" 
+                                    Style="{StaticResource ActionButtonStyle}" Margin="8,0,0,0" Background="#2196F3"/>
+                        </Grid>
+                    </StackPanel>
+
+                    
+                    <Border Grid.Row="3" Width="120" Height="120" CornerRadius="60" Background="#BBDEFB" Margin="0,10,0,20" 
+        HorizontalAlignment="Center">
+                        <Border.Effect>
+                            <DropShadowEffect Color="#9E9E9E" BlurRadius="5" ShadowDepth="2" Opacity="0.3"/>
+                        </Border.Effect>
+                        
+                        <Image Source="{Binding NewUserImagePath, TargetNullValue='/Images/placeholder_user.jpg'}" 
+           Stretch="UniformToFill"/>
+                    </Border>
+
+
+                    <Button Grid.Row="4" Content="Create User" Command="{Binding CreateUserCommand}" 
+                            Style="{StaticResource ActionButtonStyle}" Background="#2196F3"
+                            HorizontalAlignment="Center" Width="150" Margin="0,5,0,0"
+                            IsEnabled="{Binding CanCreateUser}"/>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

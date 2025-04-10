@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+		<EnableDefaultItems>false</EnableDefaultItems>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+		<EnableDefaultPageItems>false</EnableDefaultPageItems>
+		<EnableDefaultApplicationDefinition>false</EnableDefaultApplicationDefinition>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+	
+	<ItemGroup>
+		<Resource Include="Images\**\*.*" />
+	</ItemGroup>
+
+	
+	<ItemGroup>
+		<Content Include="Images\**\*.*">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	
+	<ItemGroup>
+		<ApplicationDefinition Include="App.xaml">
+			<Generator>MSBuild:Compile</Generator>
+			<SubType>Designer</SubType>
+		</ApplicationDefinition>
+		<Page Include="MainWindow.xaml">
+			<Generator>MSBuild:Compile</Generator>
+			<SubType>Designer</SubType>
+		</Page>
+		<Page Include="Views\**\*.xaml" Exclude="App.xaml">
+			<Generator>MSBuild:Compile</Generator>
+			<SubType>Designer</SubType>
+		</Page>
+	</ItemGroup>
+
+	
+	<ItemGroup>
+		<Compile Include="App.xaml.cs">
+			<DependentUpon>App.xaml</DependentUpon>
+		</Compile>
+		<Compile Include="MainWindow.xaml.cs">
+			<DependentUpon>MainWindow.xaml</DependentUpon>
+		</Compile>
+		<Compile Include="Models\**\*.cs" />
+		<Compile Include="Services\**\*.cs" />
+		<Compile Include="Utilities\**\*.cs" />
+		<Compile Include="ViewModels\**\*.cs" />
+		<Compile Include="Views\**\*.cs" />
+		<Compile Include="AssemblyInfo.cs" Condition="Exists('AssemblyInfo.cs')" />
+	</ItemGroup>
+
+	
+	<ItemGroup>
+		<Compile Update="Views\MainGameWindow.xaml.cs">
+			<DependentUpon>MainGameWindow.xaml</DependentUpon>
+		</Compile>
+		<Compile Update="Views\StatisticsWindow.xaml.cs">
+			<DependentUpon>StatisticsWindow.xaml</DependentUpon>
+		</Compile>
+		<Compile Update="Views\CustomGameDialog.xaml.cs">
+			<DependentUpon>CustomGameDialog.xaml</DependentUpon>
+		</Compile>
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Images\Animals\" />
+	</ItemGroup>
+
+</Project>
